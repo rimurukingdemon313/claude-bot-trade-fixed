@@ -1,0 +1,6 @@
+# No third-party packages required.
+# market_data.py, risk_engine.py, tradelocker_client.py, tradelocker_state.py,
+# and analysis_engine/* use only the Python standard library (json, urllib,
+# dataclasses, datetime, etc). trading_bot_db.py is retained only as a
+# historical reference for the retired local paper-trading ledger — it is
+# no longer imported or invoked anywhere in the live code path.
